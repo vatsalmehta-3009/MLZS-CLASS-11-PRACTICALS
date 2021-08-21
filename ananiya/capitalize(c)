@@ -1,0 +1,14 @@
+#program to make the first letter of every word to be capital
+sentence=input("enter a sentence:")
+output=sentence.title()
+print(output)
+
+#program to make the letters of every word to be lower case
+sentence=input("enter a sentence:")
+output=sentence.lower()
+print(output)
+
+#program to make the letters of every word to be capital
+sentence=input("enter a sentence:")
+output=sentence.upper()
+print(output)

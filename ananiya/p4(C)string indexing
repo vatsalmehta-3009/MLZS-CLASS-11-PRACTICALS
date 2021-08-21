@@ -1,0 +1,23 @@
+# PROGRAM TO PRINT THE OTPUT FROM THE SENTENCE ONE BY ONE
+s = "I LOVE MY INDIA"
+#I
+print(s[0])
+
+#LOVE
+print (s[2:6])
+
+#AIDNI
+print (s[15:9:-1])
+
+#YM E
+print (s[8:4:-1])
+
+# vein
+a=(s[4:6])
+b=(s[10:12])
+print (a+b)
+   
+#ymind
+c=(s[8:6:-1])
+d=(s[10:13])
+print (c+d)

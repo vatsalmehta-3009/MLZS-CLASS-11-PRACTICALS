@@ -1,0 +1,20 @@
+#program to find the area and volume of spheare
+choose one of the two shapes to find the area and volume = int(input("enter the choose one of the two shapes to find the area and volume:"))
+shape=spheare
+shape=cuboid
+if(shape="spheare:")
+radius = float(input("enter the radius:"))
+area = 4*3.14*radius**2
+print("area is:", area)
+volume = 4/3*3.14**radius*radius
+print("volume is:", volume)
+if(shape="cuboid")
+#program to find area and volume of cuboid
+length = float(input("enter the length:"))
+breath = float(input("enter the breath:"))
+height = float(input("enter the height:"))
+area = 2*(length*breath+breath*height+height*length)
+print("area is:", area)
+volume = length*breath*height
+print("volume is:", volume)
+
